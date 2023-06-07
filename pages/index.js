@@ -5,7 +5,6 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div>
-      <Navbar />
       <h1>Homepage</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores
@@ -20,7 +19,6 @@ export default function Home() {
         recusandae repellat totam!
       </p>
       <Link href="/ninjas">See Ninja Listing</Link>
-      <Footer />
     </div>
   );
 }

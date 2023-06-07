@@ -1,15 +1,21 @@
 import React from "react";
+import Head from "next/head";
 
 const About = (props) => (
-  <div>
-    <h1>About</h1>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aut
-      commodi ea, enim, esse excepturi illo nobis obcaecati odit optio
-      praesentium ratione repudiandae unde veritatis vero voluptatem voluptatum.
-      Amet, sunt.
-    </p>
-  </div>
+  <>
+    <Head>
+      <title>Ninja List | About</title>
+      <meta name="keywords" content="ninjas" />
+    </Head>
+    <div>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aut
+        commodi ea, enim, esse excepturi illo nobis obcaecati odit optio
+        praesentium ratione repudiandae unde veritatis vero voluptatem
+        voluptatum. Amet, sunt.
+      </p>
+    </div>
+  </>
 );
 
 export default About;
